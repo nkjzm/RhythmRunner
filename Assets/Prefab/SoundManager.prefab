@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: SoundManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: .50000006, y: 0, z: 0, w: .866025388}
+  m_LocalPosition: {x: -115, y: 139.640991, z: 85.6217957}
+  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5e8b7d2bc064066ae3a7508468410c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume:
+    BGM: 1
+    Voice: 1
+    SE: 1
+    BGM_Mute: 0
+    SE_Mute: 0
+  BGM:
+  - {fileID: 8300000, guid: c0450ce82a3e14e76a405aab664e9b38, type: 3}
+  - {fileID: 8300000, guid: 07f73669d12944a7bad623144c8b0df8, type: 3}
+  - {fileID: 8300000, guid: d18b6a71cce264974a758ee17255ffd4, type: 3}
+  SE:
+  - {fileID: 8300000, guid: eb6f1cb77ddec4ff69b4239d83450082, type: 3}
+  - {fileID: 8300000, guid: 9695377e1515f4a9a841b5aaf07e653a, type: 3}
+  - {fileID: 8300000, guid: f131f758a79d345698dca5b20b384568, type: 3}
+  - {fileID: 0}
+  Voice:
+  - {fileID: 8300000, guid: 0ab58ca3b5bcc471d99b37c32d56c375, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
